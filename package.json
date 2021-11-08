@@ -1,0 +1,36 @@
+{
+  "name": "la-dolce-vita",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:uly081219/la-dolce-vita.git",
+  "author": "Ulyana Sudlenkova <ulyanasudlenkova@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "up": "yarn parcel src/index.html",
+    "postcss": "postcss assets/css/main.css"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "glider-js": "^1.7.7",
+    "posthtml-include": "^1.7.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.0.0",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.0.0",
+    "postcss-cli": "^7.1.2",
+    "postcss-modules": "^4.2.2"
+  }
+}

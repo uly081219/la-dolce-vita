@@ -1,0 +1,800 @@
+:root {
+    --text-color: rgb(0, 0, 0);
+    --bg-white-color: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #ce2b37;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    clear: both;
+    background-color: var(--bg-white-color);
+}
+
+.destacado {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 1rem;
+}
+
+#submenu-regiones-italia {
+    display: none;
+}
+
+.destacado h1 {
+    font-size: 2.5rem;
+}
+
+.destacado p {
+    font-size: 1.25rem;
+}
+
+header {
+    background-color: #019246;
+    color: #ffffff;
+    height: 110px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    border: none;
+    color: var(--bg-white-color);
+}
+
+header nav ul li a:hover {
+    border: none;
+    color: var(--bg-white-color);
+}
+
+.brand {
+    color: #ffffff;
+    padding-left: 0.5rem;
+}
+
+.brand img {
+    margin: 0.7rem 0 0 0.5rem;
+}
+
+footer {
+    color: var(--bg-white-color);
+}
+
+footer .credit {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer .credit p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+footer .wrapper ul {
+    list-style-type: none;
+}
+
+footer .wrapper ul li {
+    padding: 0.2rem 0;
+}
+
+footer .wrapper ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+}
+
+footer .wrapper ul li a:hover {
+    color: #fafad2;
+}
+
+#submenu-regiones-italia a {
+    color: #000000;
+    text-decoration: none;
+    border: none;
+}
+
+#submenu-regiones-italia a:hover {
+    color: #019246;
+}
+
+.glider-dot.active {
+    background: #019246 !important;
+}
+
+.section-regiones .region-norte {
+    background: url("../images/italy/norte-600.jpg");
+}
+
+.section-regiones .region-sur {
+    background: url("../images/italy/sur-600.jpg");
+}
+
+.section-regiones .region-centro {
+    background: url("../images/italy/center-600.jpg");
+}
+
+.section-regiones .region-islas {
+    background: url("../images/italy/islas-600.jpg");
+}
+
+.box-location-opinion {
+    color: #8c8c8c
+}
+
+.brand {
+    float:left;
+}
+
+header nav {
+    float:left;
+    margin-left: 0.7rem;
+}
+
+header nav ul li {
+    float: left;
+    padding: 0 0.5rem;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    color: #ffffff;
+    padding-bottom: 1.5rem;
+}
+
+footer .wrapper  div {
+    padding-top: 1rem;
+}
+
+footer .container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+footer h2 {
+    font-size: 1.8rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+footer hr {
+    border: 0.02rem solid white;
+}
+
+.wrapper-regiones {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.2rem;
+    grid-auto-rows: minmax(100px, auto);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.wrapper-regiones div {
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-regiones div span {
+    color: #ffffff;
+    font-size: 4rem;
+    opacity: 0.9;
+}
+
+.wrapper-regiones div img {
+    max-width: 100%;
+}
+
+.wrapper-regiones a {
+    text-decoration: none;
+}
+
+.section-regiones {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.content-presentacion {
+    padding-top: 1rem;
+}
+
+.content-presentacion .content {
+    clear: both;
+    font-size: 1.8rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #000000;
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.presentacion  p {
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+.wrapper-norte {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.5rem;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.section-norte {
+    /*max-height: 1150px;*/
+}
+
+.section-norte {
+    max-width: 94%;
+    margin: 0 auto;
+}
+
+.box-location-after-img {
+    position:relative;
+    top: -77px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.box-location-name {
+    font-size: 2rem;
+}
+
+.box-location-duration {
+    font-size: 1rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.box-location {
+    position:relative;
+    top: -71px;
+    background-color: #cff6e1;
+    padding-left: 1rem;
+    min-height: 80px;
+}
+
+.box-location-button {
+    float:right;
+    padding:0.6rem 1.2rem;
+    position: relative;
+    top:-10px;
+    margin-right: 0.5rem;
+    background-color:  #019246;
+    color: #ffffff;
+}
+
+.box-location-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.box-location-price-button {
+    position: relative;
+    top: 20px;
+}
+
+.box-location-opinion .text {
+    position: relative;
+    top: 10px;
+    font-size: 0.8rem;
+}
+
+.number-circle-green {
+    width: 140px;
+    height: 140px;
+    background: #019246;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    color: #ffffff;
+    padding: 0.4rem;
+    position: relative;
+    top: 10px;
+    font-size: 0.8rem;
+}
+
+.box-location-price {
+    font-size: 1.5rem;
+    float:left;
+}
+
+.box-location-price .currency, .desde {
+    font-size: 0.8rem;
+}
+
+.box-location-button {
+    float:right;
+    padding:0.6rem 1.2rem;
+    position: relative;
+    top:-10px;
+    margin-right: 0.5rem;
+    background-color:  #019246;
+    color: #ffffff;
+}
+
+.box-location-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.box-location-price-button {
+    position: relative;
+    top: 20px;
+}
+
+.box-location-opinion .text {
+    position: relative;
+    top: 10px;
+    font-size: 0.8rem;
+}
+
+.box-location-container {
+    max-width: 100%;
+    max-height: 320px;
+}
+
+.box-location-container img {
+    max-width: 100%;
+}
+
+.content-location .content {
+    clear: both;
+    font-size: 1.8rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #000000;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.form-presupuesto .button {
+    min-height: 50px;
+    min-width: 300px;
+    background-color: #019246;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.wrapper-titles {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-bottom: 1.5rem;
+}
+
+.wrapper-titles h2 {
+    font-size: 1.5rem;
+}
+
+.itinerario h2 {
+    font-size: 2.5rem;
+    position:relative;
+    top: -30px;
+}
+
+.itinerario h3 {
+    font-size: 1.5rem;
+}
+
+.itinerario  p {
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+.wrapper-titles p {
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+
+    header {
+        height: 87px;
+    }
+
+    header .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    header nav {
+        float:left;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    header nav ul li {
+        float: left;
+        padding: 1rem;
+        list-style-type: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    footer .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        color: #ffffff;
+        padding-bottom: 1.5rem;
+    }
+
+    .wrapper-regiones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+        grid-auto-rows: minmax(100px, auto);
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .wrapper-regiones div {
+        height: 200px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper-regiones div span {
+        color: #ffffff;
+        font-size: 4rem;
+        opacity: 0.9;
+    }
+
+    .wrapper-regiones div img {
+        max-width: 100%;
+    }
+
+    .wrapper-regiones a {
+        text-decoration: none;
+    }
+
+    .section-regiones {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .wrapper-norte {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .wrapper-titles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    header {
+        height: 87px;
+    }
+
+    header .container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    #submenu-regiones-italia nav {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    #submenu-regiones-italia .group-regiones .title {
+        margin-bottom: 0.5rem;
+    }
+
+    #submenu-regiones-italia .sub-group-regiones li {
+        padding: 0.15rem 0;
+    }
+
+    .brand {
+        float:left;
+    }
+
+    header nav {
+        float:left;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    header nav ul li {
+        float: left;
+        padding: 1rem;
+        list-style-type: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .group-regiones {
+        float: left;
+        margin: 1rem;
+        list-style-type: none;
+    }
+
+    .group-regiones li {
+        list-style-type: none;
+    }
+
+    .group-regiones .title {
+        font-weight: bold;
+    }
+
+    #submenu-regiones-italia {
+        clear: both;
+        display: none;
+        background-color: #ffffff;
+        position: absolute;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .section-regiones {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .section-norte {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .content-presentacion .content {
+        max-width: 80%;
+    }
+
+    .box-location-after-img {
+        position:relative;
+        top: -77px;
+        color: #ffffff;
+        font-size: 1.8rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: bold;
+        padding-left: 1rem;
+    }
+
+    .box-location-name {
+        font-size: 2rem;
+    }
+
+    .box-location-duration {
+        font-size: 1rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    .box-location {
+        position:relative;
+        top: -71px;
+        background-color: #cff6e1;
+        padding-left: 1rem;
+        min-height: 80px;
+        max-width: 100%;
+    }
+
+    .box-location-container:nth-of-type(3) ~ .box-location-container {
+        position: relative;
+        top: -70px;
+    }
+
+    .box-location-container:nth-of-type(6) ~ .box-location-container {
+        position: relative;
+        top: -140px;
+    }
+
+    .wrapper-regiones {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-gap: 2rem;
+        grid-auto-rows: minmax(100px, auto);
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .wrapper-norte {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        grid-gap: 1.5rem;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .section-norte {
+        max-height: 1150px;
+    }
+
+    .content-location .content {
+        clear: both;
+        font-size: 1.8rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #000000;
+        max-width: 80%;
+        margin: 0 auto;
+        background-color: #ffffff;
+    }
+
+    .container-form {
+        display: flex;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    .form-presupuesto .button {
+        min-height: 50px;
+        min-width: 300px;
+        background-color: #019246;
+        color: #ffffff;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .wrapper-regiones div {
+        height: 200px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper-regiones div span {
+        color: #ffffff;
+        font-size: 4rem;
+        opacity: 0.9;
+    }
+
+    .wrapper-regiones div img {
+        max-width: 100%;
+    }
+
+    .wrapper-regiones a {
+        text-decoration: none;
+    }
+
+    .wrapper-titles {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        padding-bottom: 1.5rem;
+    }
+
+    .wrapper-titles h2 {
+        font-size: 1.5rem;
+    }
+
+    .itinerario h2 {
+        font-size: 2.5rem;
+        position:relative;
+        top: -30px;
+    }
+
+    .itinerario h3 {
+        font-size: 1.5rem;
+    }
+
+    .itinerario  p {
+        padding: 1rem 0;
+        font-size: 1rem;
+    }
+
+    .wrapper-titles p {
+        font-size: 1rem;
+    }
+
+    .number-circle-green {
+        width: 140px;
+        height: 140px;
+        background: #019246;
+        -moz-border-radius: 70px;
+        -webkit-border-radius: 70px;
+        border-radius: 70px;
+        color: #ffffff;
+        padding: 0.4rem;
+        position: relative;
+        top: 10px;
+        font-size: 0.8rem;
+    }
+
+    .box-location-price {
+        font-size: 1.5rem;
+        float:left;
+    }
+
+    .box-location-price .currency, .desde {
+        font-size: 0.8rem;
+    }
+
+    .box-location-button {
+        float:right;
+        padding:0.6rem 1.2rem;
+        position: relative;
+        top:-10px;
+        margin-right: 0.5rem;
+        background-color:  #019246;
+        color: #ffffff;
+    }
+
+    .box-location-button a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .box-location-price-button {
+        position: relative;
+        top: 20px;
+    }
+
+    .box-location-opinion .text {
+        position: relative;
+        top: 10px;
+        font-size: 0.8rem;
+    }
+
+    .box-location-container {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .box-location-container img {
+        max-width: 100%;
+    }
+
+    footer .wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        color: #ffffff;
+        padding-bottom: 1.5rem;
+    }
+
+    footer .wrapper  div {
+        padding-top: 1rem;
+    }
+
+    footer .container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    footer h2 {
+        font-size: 1.8rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    footer hr {
+        border: 0.02rem solid white;
+    }
+}

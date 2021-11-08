@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<include src="partials/head.html" locals='{
+    "jsFiles": ["../node_modules/glider-js/glider.min.js", "../assets/js/slider.js"],
+    "cssFiles": ["../node_modules/glider-js/glider.min.css"],
+    "title": "La Dolce Italia | Inicio",
+    "description": "Página del inicio del sitio web La dolce Italia" }'></include>
+<body>
+<include src="partials/header.html"></include>
+<main>
+    <section>
+        <div class="destacado">
+            <h1>Lombardia</h1>
+            <p>¡Tu próxima aventura comienza aquí!</p>
+        </div>
+        <div class="glider-contain">
+            <div class="glider">
+                <div id="slider-1"><img alt="Bellagio" src="../assets/images/italy/norte/lombardia/bellaggio-600.jpg"></div>
+                <div id="slider-2"><img alt="Bergamo" src="../assets/images/italy/norte/lombardia/bergamo-600.jpg"></div>
+                <div id="slider-3"><img alt="Brescia" src="../assets/images/italy/norte/lombardia/brescia-600.jpg"></div>
+                <div id="slider-4"><img alt="Milan" src="../assets/images/italy/norte/lombardia/milan-600.jpg"></div>
+                <div id="slider-5"><img alt="Monza" src="../assets/images/italy/norte/lombardia/monza-600.jpg"></div>
+            </div>
+            <button class="glider-prev">&laquo;</button>
+            <button class="glider-next">&raquo;</button>
+            <div id="dots"></div>
+        </div>
+        <div class="content-location">
+            <div class="content">
+                <div class="wrapper-titles">
+                    <div>
+                        <h2>Disponibilidad</h2>
+                        <p>Desde Noviembre 2021 hasta Octubre 2022</p>
+                    </div>
+                    <div>
+                        <h2>Duración</h2>
+                        <p>5 días / 4 noches</p>
+                    </div>
+                    <div>
+                        <h2>Salidas</h2>
+                        <p>Desde Barcelona o Madrid</p>
+                    </div>
+                    <div>
+                        <h2>Desde</h2>
+                        <p>299<span class="currency">€</span> / persona</p>
+                    </div>
+                </div>
+
+                <div class="itinerario">
+                    <h2>Itinerario</h2>
+                    <h3>Día 1: Bellagio</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ligula non tellus finibus suscipit. Nunc quis consequat libero. Nulla facilisi. Cras congue lectus nec lacus varius posuere. Donec sollicitudin pretium pellentesque. Vivamus vitae ex in felis eleifend bibendum. Maecenas a auctor augue. Phasellus justo est, gravida vel suscipit at, facilisis sit amet purus. Quisque ac magna augue. Aliquam sem augue, porttitor vel lectus sit amet, fringilla ultricies velit. Mauris sit amet ligula congue, condimentum mi vitae, imperdiet ante. Nam a justo lobortis, condimentum diam vel, pretium eros. </p>
+
+                    <h3>Día 2: Bergamo</h3>
+                    <p>Nam est urna, euismod id est accumsan, hendrerit luctus orci. Nulla facilisi. Aliquam semper vel nisi ut rutrum. Nulla gravida velit id sapien mattis volutpat. Nulla facilisi. Vivamus posuere tincidunt velit quis viverra. Vestibulum placerat, arcu eu semper accumsan, lectus justo feugiat nisi, in pharetra sem urna ac velit. Curabitur a gravida velit, malesuada blandit nisi. Phasellus mattis sed nisl at tempus. Aenean ac molestie dolor, sed suscipit felis. Phasellus ullamcorper viverra massa, vel finibus velit venenatis a. Duis eget arcu in nisl facilisis bibendum. Mauris pellentesque imperdiet consectetur. Fusce sed consectetur erat, ut varius magna. </p>
+
+                    <h3>Día 3: Brescia</h3>
+                    <p>Aliquam elementum quam velit, a pretium metus sagittis sit amet. Nam dolor nulla, eleifend ut justo eget, tempor viverra leo. Vestibulum id enim ac elit faucibus scelerisque. Donec gravida sapien at mauris iaculis faucibus. Aenean sapien nisl, malesuada at sem eget, porta aliquam eros. Donec at pellentesque lorem, vitae aliquam massa. In et mi quis quam interdum vestibulum quis vel ligula. Nam et tincidunt lectus. Cras non eros sem. </p>
+
+                    <h3>Día 4: Milan</h3>
+                    <p>Maecenas non nunc lacus. Nunc quis pretium nibh, quis ultricies velit. Proin dui diam, auctor ut lacinia pretium, euismod vitae mi. Ut accumsan eu magna vitae ultrices. Duis at scelerisque odio, sit amet pretium nibh. Maecenas rhoncus non nisl sit amet sollicitudin. Suspendisse at nulla id lectus aliquet molestie. Suspendisse non est ut leo maximus ultricies. Curabitur a consequat metus. Curabitur risus diam, laoreet ut elit non, pharetra bibendum dolor. Fusce odio enim, facilisis vel eros sed, efficitur suscipit sem. </p>
+
+                    <h3>Día 4: Monza</h3>
+                    <p>Cras non justo nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer a finibus risus. Morbi at feugiat diam. Sed vulputate ipsum rhoncus urna luctus, nec feugiat nunc euismod. Nam porttitor et neque sed lobortis. Pellentesque efficitur porta vestibulum. Vestibulum sed erat sed tellus mollis consequat. Cras eu dui lobortis, aliquet lorem non, pharetra risus. Suspendisse potenti. Vivamus faucibus sem eu iaculis pellentesque. Quisque at nisi consectetur, rhoncus dui sed, rutrum est. Vivamus mollis volutpat rhoncus. Suspendisse vestibulum nibh auctor neque sagittis pellentesque. </p>
+                </div>
+
+                <div class="container-form">
+                    <form class="form-presupuesto" method="post" action="">
+                        <input class="button" type="button" value="Solicitar Presupuesto" />
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+<include src="partials/footer.html"></include>
+</body>
+</html>
