@@ -2,6 +2,7 @@
   Desarrollo de la página web La Dolce Vita
 </h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9a447aef-6604-491a-912e-af89c785e1a2/deploy-status)](https://app.netlify.com/sites/determined-chandrasekhar-8fa62f/deploys)
 
 ## 🚀 Entorno de desarrollo
 
