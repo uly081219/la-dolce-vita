@@ -106,4 +106,4 @@ Cada vez que realizamos cambios en la rama main se deploya automáticamente el s
 
 Url del proyecto: https://determined-chandrasekhar-8fa62f.netlify.app/
 
-## 🤹‍ Feliz desarrollo !
+## 🤹 Feliz desarrollo !
