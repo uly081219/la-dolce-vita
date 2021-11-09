@@ -100,10 +100,10 @@ samsung 15.0
 samsung 14.0
 ```
 
-# 📡 Continuous Deployment con netlify
+## 📡 Continuous Deployment con netlify
 
 Cada vez que realizamos cambios en la rama main se deploya automáticamente el sitio web en la plataforma netlify
 
 Url del proyecto: https://determined-chandrasekhar-8fa62f.netlify.app/
 
-# Feliz desarrollo !
+## 🤹‍ Feliz desarrollo !
