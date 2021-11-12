@@ -601,11 +601,11 @@ footer hr {
 
     .box-location {
         position:relative;
-        top: -71px;
+        top: -73px;
         background-color: #cff6e1;
         padding-left: 1rem;
         min-height: 80px;
-        max-width: 100%;
+        max-width: 360px;
     }
 
     .box-location-container:nth-of-type(3) ~ .box-location-container {
