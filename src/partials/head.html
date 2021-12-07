@@ -12,8 +12,8 @@
     <each loop="item, index in cssFiles">
     <link rel="stylesheet" href="{{ item }}">
     </each>
-    <script src="../assets/js/common.js"></script>
+    <script type="module" src="../assets/js/common.js"></script>
     <each loop="item, index in jsFiles">
-    <script src="{{ item }}"></script>
+    <script type="module" src="{{ item }}"></script>
     </each>
 </head>

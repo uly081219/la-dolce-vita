@@ -10,7 +10,7 @@
 <main>
     <section>
         <div class="destacado">
-            <h1>La Dolce Vita</h1>
+            <h1>La Dolce Italia</h1>
             <p>¡Tu próxima aventura comienza aquí!</p>
         </div>
         <div class="glider-contain">
@@ -35,8 +35,101 @@
                     <p>Aliquam elementum quam velit, a pretium metus sagittis sit amet. Nam dolor nulla, eleifend ut justo eget, tempor viverra leo. Vestibulum id enim ac elit faucibus scelerisque. Donec gravida sapien at mauris iaculis faucibus. Aenean sapien nisl, malesuada at sem eget, porta aliquam eros. Donec at pellentesque lorem, vitae aliquam massa. In et mi quis quam interdum vestibulum quis vel ligula. Nam et tincidunt lectus. Cras non eros sem. </p>
 
                     <p>Cras non justo nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer a finibus risus. Morbi at feugiat diam. Sed vulputate ipsum rhoncus urna luctus, nec feugiat nunc euismod. Nam porttitor et neque sed lobortis. Pellentesque efficitur porta vestibulum. Vestibulum sed erat sed tellus mollis consequat. Cras eu dui lobortis, aliquet lorem non, pharetra risus. Suspendisse potenti. Vivamus faucibus sem eu iaculis pellentesque. Quisque at nisi consectetur, rhoncus dui sed, rutrum est. Vivamus mollis volutpat rhoncus. Suspendisse vestibulum nibh auctor neque sagittis pellentesque. </p>
-                </div>
 
+                    <div class="box-container-stars">
+
+                        <svg id="stars" version="1.1">
+                            <symbol id="stars-full-star" viewBox="0 0 102 18">
+                                <path d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" />
+                            </symbol>
+
+                            <symbol id="stars-half-star" viewBox="0 0 102 18">
+                                <path d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792" fill="#e9ba26" />
+                            </symbol>
+
+                            <symbol id="stars-all-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-full-star" />
+                                <use xlink:href="#stars-full-star" transform="translate(21)" />
+                                <use xlink:href="#stars-full-star" transform="translate(42)" />
+                                <use xlink:href="#stars-full-star" transform="translate(63)" />
+                                <use xlink:href="#stars-full-star" transform="translate(84)" />
+                            </symbol>
+
+                            <symbol id="stars-0-0-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-all-star" fill="#9b9b9b" />
+                            </symbol>
+
+                            <symbol id="stars-0-5-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-0-0-star" />
+                                <use xlink:href="#stars-half-star" />
+                            </symbol>
+
+                            <symbol id="stars-1-0-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-0-0-star" />
+                                <use xlink:href="#stars-full-star" fill="#e9ba26" />
+                            </symbol>
+
+                            <symbol id="stars-1-5-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-1-0-star" />
+                                <use xlink:href="#stars-half-star" transform="translate(21)" />
+                            </symbol>
+
+                            <symbol id="stars-2-0-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-1-0-star" />
+                                <use xlink:href="#stars-full-star" fill="#e9ba26" transform="translate(21)" />
+                            </symbol>
+
+                            <symbol id="stars-2-5-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-2-0-star" />
+                                <use xlink:href="#stars-half-star" transform="translate(42)" />
+                            </symbol>
+
+                            <symbol id="stars-3-0-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-2-0-star" />
+                                <use xlink:href="#stars-full-star" fill="#e9ba26" transform="translate(42)" />
+                            </symbol>
+
+                            <symbol id="stars-3-5-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-3-0-star" />
+                                <use xlink:href="#stars-half-star" transform="translate(63)" />
+                            </symbol>
+
+                            <symbol id="stars-4-0-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-3-0-star" />
+                                <use xlink:href="#stars-full-star" fill="#e9ba26" transform="translate(63)" />
+                            </symbol>
+
+                            <symbol id="stars-4-5-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-4-0-star" />
+                                <use xlink:href="#stars-half-star" transform="translate(84)" />
+                            </symbol>
+
+                            <symbol id="stars-5-0-star" viewBox="0 0 102 18">
+                                <use xlink:href="#stars-all-star" fill="#e9ba26" />
+                            </symbol>
+                        </svg>
+
+                        <div class="box-stars">
+
+                            <p>El grado de satisfacción de nuestros clientes es total. Máxima puntuación posible 5/5</p>
+                            <svg class="icon">
+                                <use xlink:href="#stars-5-0-star">
+                            </svg>
+                        </div>
+
+                        <aside>
+                            <div class="animation-wrap">
+                                <svg version="1.1" class="animacion" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"   xml:space="preserve">
+<rect fill="#fff" />
+                                    <text transform="matrix(1 0 0 1 74 36)" class="text-1">Formidable</text>
+                                    <text transform="matrix(1 0 0 1 66 36)" class="text-2">Especatcular</text>
+                                    <text transform="matrix(1 0 0 1 60 36)" class="text-3">Recomendable</text>
+</svg>
+                            </div>
+                        </aside>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
