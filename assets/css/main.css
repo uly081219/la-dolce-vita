@@ -643,6 +643,10 @@ aside {
         width: 64px;
         padding-bottom: 0;
     }
+
+    .logo-footer {
+        width: 128px;
+    }
 }
 
 @media (min-width: 992px) {
