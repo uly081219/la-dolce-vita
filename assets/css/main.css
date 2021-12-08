@@ -25,6 +25,15 @@ img, embed, object, video {
     max-width: 100%;
 }
 
+.logo {
+    width: 48px;
+    padding-bottom: 1rem;
+}
+
+.logo-footer {
+    width: 64px;
+}
+
 .destacado {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -629,6 +638,11 @@ aside {
         grid-auto-rows: minmax(100px, auto);
         padding-bottom: 1.5rem;
     }
+
+    .logo {
+        width: 64px;
+        padding-bottom: 0;
+    }
 }
 
 @media (min-width: 992px) {
@@ -953,5 +967,14 @@ aside {
 
     footer hr {
         border: 0.02rem solid white;
+    }
+
+    .logo {
+        width: 64px;
+        padding-bottom: 0;
+    }
+
+    .logo-footer {
+        width: 128px;
     }
 }
