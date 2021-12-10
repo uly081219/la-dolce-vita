@@ -27,11 +27,9 @@
     "posthtml-include": "^1.7.2"
   },
   "devDependencies": {
-    "autoprefixer": "^9.0.0",
+    "autoprefixer": "^10.4.0",
     "parcel": "^2.0.1",
     "parcel-plugin-imagemin": "^4.0.2",
-    "postcss": "^8.0.0",
-    "postcss-cli": "^7.1.2",
-    "postcss-modules": "^4.2.2"
+    "postcss": "^8.1.0"
   }
 }
