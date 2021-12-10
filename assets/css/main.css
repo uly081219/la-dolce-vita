@@ -42,6 +42,14 @@ img, embed, object, video {
     padding-bottom: 3rem;
 }
 
+.destacado-section {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    padding-bottom: 3rem;
+    top: 60px;
+}
+
 #submenu-regiones-italia {
     display: none;
 }
