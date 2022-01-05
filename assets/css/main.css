@@ -146,19 +146,19 @@ footer .wrapper ul li a:hover {
 }
 
 .section-regiones .region-norte {
-    background: url("../images/italy/norte-600.jpg");
+    background: url("../images/italy/norte-600.webp");
 }
 
 .section-regiones .region-sur {
-    background: url("../images/italy/sur-600.jpg");
+    background: url("../images/italy/sur-600.webp");
 }
 
 .section-regiones .region-centro {
-    background: url("../images/italy/center-600.jpg");
+    background: url("../images/italy/center-600.webp");
 }
 
 .section-regiones .region-islas {
-    background: url("../images/italy/islas-600.jpg");
+    background: url("../images/italy/islas-600.webp");
 }
 
 .box-location-opinion {
